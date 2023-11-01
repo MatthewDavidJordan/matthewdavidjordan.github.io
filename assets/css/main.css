@@ -2101,11 +2101,15 @@ button:hover:active:after,
 }
 
 /* scroll down arrow */
-.wrapper .scroll-down-arrow-container {
-	position: absolute;
-	left: 40%;
-	bottom: 0%;
-	transform: translateX(-50%);
+.inner .scroll-down-arrow-container {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	/* Center horizontally */
+	align-items: center;
+	/* Center vertically */
+	height: 100%;
+	/* Make the container fill the parent's height */
 }
 
 /* Features */

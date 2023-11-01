@@ -2094,6 +2094,20 @@ button:hover:active:after,
 	opacity: 0.1;
 }
 
+.button i {
+	margin-right: -0.5em;
+	font-size: large;
+	margin-left: 0.2em;
+}
+
+/* scroll down arrow */
+.wrapper .scroll-down-arrow-container {
+	position: absolute;
+	left: 40%;
+	bottom: 0%;
+	transform: translateX(-50%);
+}
+
 /* Features */
 
 .features {

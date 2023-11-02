@@ -2102,11 +2102,11 @@ button:hover:active:after,
 
 /* scroll down arrow */
 .inner .scroll-down-arrow-container {
-	text-align: center;
 	display: flex;
 	justify-content: center;
 	/* Center horizontally */
 	align-items: center;
+	size-adjust: auto;
 	/* Center vertically */
 	height: 100%;
 	/* Make the container fill the parent's height */
